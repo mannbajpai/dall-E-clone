@@ -31,6 +31,11 @@ const App = () => {
           <Route path="/create-post" element={<CreatePost />} />
         </Routes>
       </main>
+      <footer className="w-full flex flex-col justify-between items-center
+       bg-white sm:px-8 px-4 py-4
+       border-b border-b-[#e6ebf4]">
+        <p className="font-inter py-2  text-xl text-gray-700">©Mann Bajpai 2023</p>
+      </footer>
     </BrowserRouter>
   );
 };

@@ -23,7 +23,7 @@ const startServer = async () => {
   try {
     connectDB(process.env.MONGODB_URL);
     app.listen(8090, () => {
-      console.log("Server is running on http://localhost:8090");
+      console.log("Server is running on Render");
     });
   } catch (error) {
     console.log(error);
